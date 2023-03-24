@@ -6,7 +6,7 @@ This Physical Eetlijst was first inspired by others living on the University of 
 The model presented here is a simplified version just to show the statuses and how many people are eating, it is not possible to sign up for dinner through this physical device.
 
 ## Hardware
-The hardware (and prototype board layout) can be seen in the Eetlijst v5 folder, it is given both as a Fritzing file and png and jpg.
+The hardware (and prototype board layout) can be seen in the Eetlijst v5 folder, it is given both as a [Fritzing](Eetlijst_v5/Eetlijst.fzz) and [png](Eetlijst_v5/Eetlijst_Hardware%20Breadboard%20layout.png) and [jpg](Eetlijst_v5/Eetlijst_Hardware%20Breadboard%20layout.jpg).
 Pay close attention to the connections as it otherwise may not work.
 For the Wemos D1 mini, the MCU is flipped in the image (meaning 5V should be in the upper right corner, and 3.3V should be in the Upper Left.
 The necessary items are the following:
