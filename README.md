@@ -38,4 +38,11 @@ In the place of the xxxxxxxx the Wi-Fi credentials, as well as the Eetlijst cred
 The current limitation of the system is that the ESP8266 does not work with enterprise networks, and will only work with simple home networks.
 Furthermore, it is not possible to change your status from the device, this should still be done through the website or phone apps.
 
+## Versions
+There are two versions, the older one [Eetlijst_v4](Eeflijst_v4), is non-working, due to the updates given to Eetlijst itself.
+The current version, [Eetlijst_v5](Eeflijst_v5), should be working and running.
+
+
+
+
 
