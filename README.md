@@ -39,8 +39,8 @@ The current limitation of the system is that the ESP8266 does not work with ente
 Furthermore, it is not possible to change your status from the device, this should still be done through the website or phone apps.
 
 ## Versions
-There are two versions, the older one [Eetlijst_v4](Eeflijst_v4), is non-working, due to the updates given to Eetlijst itself.
-The current version, [Eetlijst_v5](Eeflijst_v5), should be working and running.
+There are two versions, the older one [Eetlijst_v4](Eetlijst_v4), is non-working, due to the updates given to Eetlijst itself.
+The current version, [Eetlijst_v5](Eetlijst_v5), should be working and running.
 
 
 
