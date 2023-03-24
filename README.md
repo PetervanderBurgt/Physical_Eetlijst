@@ -14,18 +14,18 @@ The necessary items are the following:
 **Item**   | **Count** | **Description**
 ------------- | ------------- | -------------
 **Necessities** ||
-Prototype board | 1 | This should be approximately (32 by 50) for 7 people, this should be altered to fit
-Power connector breakout board | 1 | In the overview a USB micro is chosen, as that was what was available
-Power switch | 1 | can be chosen as one sees fit
-Wemos D1 mini (clone) | 1 | the brain of the operation is a ESP8266, in this case a clone Wemos D1 mini
-TM1637 | 1 | A simple display to show how many people will be eating
-Wires |N.A.| Some spare wires to connect everything
-Headers |N.A.| Some spare headers to make everything swappable
+Prototype board | 1 | This should be approximately (32 by 50) for 7 people, this should be altered to fit.
+Power connector breakout board | 1 | In the overview a USB micro is chosen, as that was what was available.
+Power switch | 1 | Can be chosen as one sees fit.
+Wemos D1 mini (clone) | 1 |Tthe brain of the operation is a ESP8266, in this case a clone Wemos D1 mini.
+TM1637 | 1 | A simple display to show how many people will be eating.
+Wires |N.A.| Some spare wires to connect everything.
+Headers |N.A.| Some spare headers to make everything swappable.
 **Indicators** ||
-Blue LED | 1 | Indicator for when information is getting retrieved
-RG LED | x | A bicolour led, in my case Red and Green to show the status of the people. Get as many as there are people in Eetlijst, in this example 7
-Shift Register (74HC595) | x/4 | Shift register for driving LEDs, get the amount of bicolour LEDs divided by 4
-Level Shifter | 1 | To convert signals from 3.3V ESP8266 to 5V shift registers
+Blue LED | 1 | Indicator for when information is getting retrieved.
+RG LED | x | A bicolour led, in my case Red and Green to show the status of the people. Get as many as there are people in Eetlijst, in this example 7.
+Shift Register (74HC595) | x/4 | Shift register for driving LEDs, get the amount of bicolour LEDs divided by 4.
+Level Shifter | 1 | To convert signals from 3.3V ESP8266 to 5V shift registers.
 **OR** | | Instead of the above for indicators, there may be an easier option, this does require modifications for the hardware of the system.
 Digital LED Strip (ws281x) | x + 1 | A digital LED strip may be easier than the above to indicate the people and when the system is retrieving information.
 
