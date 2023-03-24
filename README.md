@@ -42,7 +42,5 @@ Furthermore, it is not possible to change your status from the device, this shou
 There are two versions, the older one [Eetlijst_v4](Eetlijst_v4), is non-working, due to the updates given to Eetlijst itself.
 The current version, [Eetlijst_v5](Eetlijst_v5), should be working and running.
 
-
-
-
-
+## Support
+This repository is for documentation purposes only, there will be no support for any issues. Questions are welcome, but it is not guaranteed to be fixed.
