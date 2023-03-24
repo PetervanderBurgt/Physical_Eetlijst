@@ -1,5 +1,5 @@
 # Physical Eetlijst
-Physical Eetlijst is a personal project to interface with the popular dutch student houses website [Eetlijst](https://eetlijst.nl/).
+Physical Eetlijst is a personal project to interface with the popular dutch student houses website [Eetlijst](https://eetlijst.nl/) and create a physical representation of the statuses of the website which shows who is there for dinner.
 
 ## Inspiration
 This Physical Eetlijst was first inspired by others living on the University of Twente campus, all credits for the idea should be given to them.
@@ -35,7 +35,7 @@ Before flashing, the different login credentials should be filled in [keys.h](Ee
 In the place of the xxxxxxxx the Wi-Fi credentials, as well as the Eetlijst credentials should be filled in.
 
 ## Limitations
-Current limitations of the system, is that the ESP8266 does not work with enterprise networks, and will only work with simple home networks.
+The current limitation of the system is that the ESP8266 does not work with enterprise networks, and will only work with simple home networks.
 Furthermore, it is not possible to change your status from the device, this should still be done through the website or phone apps.
 
 
