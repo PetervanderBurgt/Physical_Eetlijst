@@ -134,10 +134,10 @@ void loop() {
 
     //count how many people eat
     for (int i = 0; i < noOfPeople; i++) {
-      if ((actual_eating_status[i] == "dont_know_yet") || (actual_eating_status[i] == "not_attending")) {
-        //do not count to how many people are eating
+      if ((actual_eating_status[i] == "cook") || (actual_eating_status[i] == "eat_only") || (actual_eating_status[i] == "got_groceries")) {
+                hoeveelMeeEters++;
       } else {
-        hoeveelMeeEters++;
+        //do not count to how many people are eating
       }
       hoeveelMeeEters = hoeveelMeeEters + actual_number_of_guests[i];
     }
