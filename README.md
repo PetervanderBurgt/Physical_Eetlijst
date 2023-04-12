@@ -1,6 +1,10 @@
 # Physical Eetlijst
 Physical Eetlijst is a personal project to interface with the popular dutch student houses website [Eetlijst](https://eetlijst.nl/) and create a physical representation of the statuses of the website which shows who is there for dinner.
 
+
+<img src="Eetlijst_v5/Physical%20Eetlijst.jpg" width=88%>
+
+
 ## Inspiration
 This Physical Eetlijst was first inspired by others living on the University of Twente campus, all credits for the idea should be given to them.
 The model presented here is a simplified version just to show the statuses and how many people are eating, it is not possible to sign up for dinner through this physical device.
