@@ -388,7 +388,13 @@ String getEters() {
     lines[line_counter] = client.readStringUntil('\r');
     line_counter++;
   }
-  String jsonReturned = lines[11];
+  int jsonLineStartingWithBracket = -1;
+  for (int i = 0; i < line_counter; i++) {
+    if (lines[i].substring(0,15).indexOf("data") > 0) {
+      jsonLineStartingWithBracket = i;
+    }
+  }
+  String jsonReturned = lines[jsonLineStartingWithBracket];
   //  Serial.println(jsonReturned);
   Serial.println("Json Retrieved");
 
