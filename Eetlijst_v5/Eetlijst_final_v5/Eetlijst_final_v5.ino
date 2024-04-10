@@ -279,12 +279,11 @@ int getToken() {
   const char *token_url_extra = "/api/v1/auth/eetlijst/";
   String login_token = "{\"login\":\"" + Eetlijst_USERNAME + "\", \"pass\":\"" + Eetlijst_PASSWORD + "\"}";
   const char *body = login_token.c_str();
-  //  const char *body = "{\"login\":\"borstelhuis\", \"pass\":\"anno1990\"}"; // a valid jsonObject
 
   StaticJsonBuffer<200> jsonBuffer;
   JsonObject& root = jsonBuffer.createObject();
-  root["login"] = "borstelhuis";
-  root["pass"] = "anno1990";
+  root["login"] = "login";
+  root["pass"] = "passwd";
   root.printTo(Serial);
   Serial.println();
 
